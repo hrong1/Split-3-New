@@ -1,4 +1,7 @@
+NavigationRegion3D
+NavigationAgent3D
 CollisionShape3D
+CharacterBody3D
 StaticBody3D
 Node3D
 CSGPolygon3D
