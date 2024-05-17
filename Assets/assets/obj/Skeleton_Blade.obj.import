@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bmdijiqmi4xme"
+path="res://.godot/imported/Skeleton_Blade.obj-28825d4ecfb003d827f7ae7c80ac2a7c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Skeleton_Blade.obj-28825d4ecfb003d827f7ae7c80ac2a7c.mesh"]
+
+source_file="res://Assets/assets/obj/Skeleton_Blade.obj"
+dest_files=["res://.godot/imported/Skeleton_Blade.obj-28825d4ecfb003d827f7ae7c80ac2a7c.mesh", "res://.godot/imported/Skeleton_Blade.obj-28825d4ecfb003d827f7ae7c80ac2a7c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
