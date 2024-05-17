@@ -1,3 +1,5 @@
 res://Scenes/World.tscn
-res://Models/Fence/fence.tscn
-res://zombie.tscn
+res://Scenes/World.gd
+res://Scenes/bullet.tscn
+res://Scenes/npc.tscn
+res://Scenes/zombie.tscn
