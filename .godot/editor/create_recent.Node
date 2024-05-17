@@ -1,4 +1,5 @@
-CollisionShape3D
-StaticBody3D
-Node3D
+CSGSphere3D
 CSGPolygon3D
+Node3D
+StaticBody3D
+CollisionShape3D

@@ -1,2 +1,6 @@
 res://Scenes/World.tscn
 res://Models/Fence/fence.tscn
+res://Models/crypt/crypt_2.tscn
+res://Models/trees/pine_2.tscn
+res://Models/grave/grave.tscn
+res://Models/trees/pine_crooked_2.tscn
