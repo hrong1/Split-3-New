@@ -3,3 +3,4 @@ res://Scenes/World.gd
 res://Scenes/bullet.tscn
 res://Scenes/npc.tscn
 res://Scenes/zombie.tscn
+res://Scripts/World.gd
