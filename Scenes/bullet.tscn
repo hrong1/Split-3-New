@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://bdrdd42w5a5ss"]
+
+[ext_resource type="Script" path="res://Scripts/Bullet.gd" id="1_xjngy"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ic8sd"]
+top_radius = 0.0
+
+[sub_resource type="ORMMaterial3D" id="ORMMaterial3D_x36ex"]
+shading_mode = 0
+albedo_color = Color(0.691305, 0.226165, 0, 1)
+grow_amount = 0.1
+distance_fade_max_distance = 0.0
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_120hr"]
+
+[node name="Bullet" type="Node3D"]
+script = ExtResource("1_xjngy")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.1, -6.97574e-17, 4.15924e-25, 4.15924e-25, 1.19249e-09, 0.1, -6.97574e-17, -0.1, 1.19249e-09, 0, 0, 0)
+mesh = SubResource("CylinderMesh_ic8sd")
+surface_material_override/0 = SubResource("ORMMaterial3D_x36ex")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
+visibility_parent = NodePath("../MeshInstance3D")
+shape = SubResource("BoxShape3D_120hr")
