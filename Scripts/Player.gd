@@ -5,7 +5,7 @@ var speed
 const WALK_SPEED = 5.0
 const SPRINT_SPEED = 10.0
 const JUMP_VELOCITY = 4.5
-const SENSITIVITY = .003
+const SENSITIVITY = .03
 
 #fov vars
 const BASE_FOV = 75
