@@ -1,5 +1,6 @@
-Timer
+AnimationTree
 NavigationRegion3D
+Timer
 NavigationAgent3D
 CollisionShape3D
 CharacterBody3D
