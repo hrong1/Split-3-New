@@ -1,5 +1,6 @@
 extends Node3D
 
+
 var zombie = load("res://Scenes/zombie.tscn")
 @onready var spawns = $GraveContainer
 

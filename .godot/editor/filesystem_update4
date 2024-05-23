@@ -1,4 +1,6 @@
 res://Scenes/bullet.tscn
-res://Scripts/Player.gd
 res://Scenes/npc.tscn
 res://Scenes/World.tscn
+res://Scenes/zombie.tscn
+res://Scripts/World.gd
+res://Scenes/zombie_enemy.gd
